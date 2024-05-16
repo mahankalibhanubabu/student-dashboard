@@ -1,0 +1,30 @@
+.MainDash{
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.search{
+    display: flex;
+    align-items: center;
+    row-gap: 30px;
+    width: 100%;
+    max-width: 650px
+}
+.bt-search{
+    background-color: aqua;
+}
+
+@media screen and (max-width: 1200px) {
+    .MainDash{
+        justify-content:flex-start;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .MainDash{
+        align-items: center;
+    }
+}
